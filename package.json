@@ -36,9 +36,7 @@
     "puppeteer"
   ],
   "dependencies": {
-    "chrome-launcher": "0.10.2",
     "lighthouse": "3.0.3",
-    "node-fetch": "2.2.0",
     "puppeteer": "1.7.0",
     "zeelib": "8.2.0",
     "zrgs": "1.0.0"
