@@ -26,8 +26,14 @@
   },
   "bugs": "https://github.com/zacanger/litepup/issues",
   "keywords": [
-    "",
-    "litepup"
+    "audit",
+    "chrome",
+    "chromium",
+    "cli",
+    "devtools",
+    "headless",
+    "lighthouse",
+    "puppeteer"
   ],
   "dependencies": {
     "chrome-launcher": "0.10.2",
