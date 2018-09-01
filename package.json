@@ -9,10 +9,15 @@
   },
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "bin": "./index.js",
   "scripts": {
-    "start": "node index",
-    "test": ""
+    "preversion": "npm t",
+    "test": "npm run test:lint",
+    "test:lint": "eslint -c .eslintrc.json *.js"
   },
   "homepage": "https://github.com/zacanger/litepup#readme",
   "repository": {
@@ -24,8 +29,24 @@
     "",
     "litepup"
   ],
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "chrome-launcher": "0.10.2",
+    "lighthouse": "3.0.3",
+    "node-fetch": "2.2.0",
+    "puppeteer": "1.7.0",
+    "zeelib": "8.2.0",
+    "zrgs": "1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "9.0.0",
+    "eslint": "5.4.0",
+    "eslint-config-zacanger": "3.4.1",
+    "eslint-plugin-babel": "5.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-node": "7.0.1",
+    "eslint-plugin-promise": "4.0.0",
+    "eslint-plugin-unicorn": "6.0.0"
+  },
   "engines": {
     "node": ">=8.0.0"
   }

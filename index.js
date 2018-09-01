@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 
-const main = () => {
+const exit = require('zeelib/lib/exit')
 
+if (module.parent) {
+  console.error('litepup is a command-line program')
+  exit(1)
 }
 
-if (!module.parent) main()
+require('./lib')
