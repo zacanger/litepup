@@ -15,7 +15,14 @@ You can read your results file at <https://googlechrome.github.io/lighthouse/vie
 If you have trouble running, make sure you have all required dependencies
 installed. See [this list](https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md#chrome-headless-doesnt-launch).
 
-A Docker image is in the works.
+## Todo
+
+* Allow configuration of literally anything more than the url
+* Batch audits (url lists)
+* Docker image?
+* Friendly CLI reporting (human readable)
+* Easy to parse output for CI
+* Generate HTML report
 
 ## License
 
