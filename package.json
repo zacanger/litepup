@@ -1,7 +1,7 @@
 {
   "name": "litepup",
   "description": "Use Puppeteer to run lighthouse audits",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "author": {
     "name": "Zac Anger",
     "email": "zac@zacanger.com",
