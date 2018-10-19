@@ -36,20 +36,20 @@
     "puppeteer"
   ],
   "dependencies": {
-    "lighthouse": "3.0.3",
-    "puppeteer": "1.7.0",
-    "zeelib": "8.2.0",
+    "lighthouse": "3.2.1",
+    "puppeteer": "1.9.0",
+    "zeelib": "8.2.2",
     "zrgs": "1.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "9.0.0",
-    "eslint": "5.5.0",
+    "babel-eslint": "10.0.1",
+    "eslint": "5.7.0",
     "eslint-config-zacanger": "3.4.1",
-    "eslint-plugin-babel": "5.1.0",
+    "eslint-plugin-babel": "5.2.1",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-node": "7.0.1",
-    "eslint-plugin-promise": "4.0.0",
-    "eslint-plugin-unicorn": "6.0.0"
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-unicorn": "6.0.1"
   },
   "engines": {
     "node": ">=8.0.0"
